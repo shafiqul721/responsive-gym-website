@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* shared  */
+
+.inter-regular-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800 ;
+  font-style: normal;
+}
+
+.inter-regular-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
