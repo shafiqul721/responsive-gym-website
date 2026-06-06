@@ -117,3 +117,15 @@ nav > div > a{
   font-size: 90px;
   
 }
+
+
+/* responsive */
+@media screen and (max-width:430px){
+.nav-button-container > a {
+    display: none;
+    
+
+}
+
+    
+}
