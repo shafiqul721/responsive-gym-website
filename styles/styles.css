@@ -120,6 +120,81 @@ nav > div > a{
   
 }
 
+.floating-info1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  rgba(48, 48, 48, 0.54);
+    border-radius: 15px;
+    width: 193px;
+    height: 98px;
+    
+
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 220px;  
+    right: 100px;   
+    backdrop-filter: blur(10px);
+    line-height: 0.01;
+    justify-items: left;
+    padding: 17px 24px;
+
+    
+}
+.floating-info-description1{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.floating-info-title1{
+color: rgba(255, 255, 255, 1);
+font-size:40px;
+font-weight:900;
+text-shadow:
+        0 0 5px rgba(255,255,255,0.8),
+        0 0 10px rgba(255,255,255,0.6),
+        0 0 20px rgba(255,255,255,0.4);
+
+}
+
+.floating-info2{
+    display: flex;
+    border: 1px solid  rgba(48, 48, 48, 0.54);
+    border-radius: 15px;
+    width: 193px;
+    height: 98px;
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 17px 24px;
+    position: absolute;
+    right: 470px;
+    top: 505px;
+    backdrop-filter: blur(10px); 
+    gap: 15px;
+    line-height: 1;
+    
+
+
+
+}
+.floating-info-descripion{
+    color: rgba(239, 237, 232, 0.65);
+}
+.floating-info-title{
+    font-size: 28px;
+    font-weight:800;
+
+}
+.circle{
+    background-color: rgba(230, 83, 60, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 59px;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.floating-info2-text{
+    padding-bottom: 0px;
+}
+
 
 /* responsive */
 @media screen and (max-width:430px){
