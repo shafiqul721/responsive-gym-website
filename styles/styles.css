@@ -48,6 +48,8 @@ nav > div > a{
 .home-content-description{
     margin-bottom: 28px;
 }
+
+
 /* shared  */
 
 .inter-regular-font {
@@ -123,8 +125,17 @@ nav > div > a{
 @media screen and (max-width:430px){
 .nav-button-container > a {
     display: none;
-    
-
+}
+.homepage-content{
+    flex-direction: column;
+}
+.button1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+        margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 45px;
 }
 
     
