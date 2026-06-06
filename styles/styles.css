@@ -213,5 +213,33 @@ text-shadow:
     margin-bottom: 45px;
 }
 
+.floating-info1{
+
+    top: 699px;
+    right: 15px;
+
+     height: 80px;
+        padding-top: 0.01em;
+    padding-bottom:12px;
+        width: 180px;
     
 }
+.floating-info2{
+    right: 180px;
+    top: 900px;
+    
+    width:170px;
+    height: 80px;
+    padding-top: 0.01em;
+    padding-bottom:12px;
+    line-height: 0.9;
+
+    
+
+}
+    
+}
+
+
+   
+
