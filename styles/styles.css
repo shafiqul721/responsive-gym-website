@@ -138,9 +138,15 @@ nav > div > a{
 
 
 
+.bmi-main-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
 
-
-
+#margin-id{
+    margin-bottom: 30px;
+}
 
 /* shared  */
 
@@ -237,13 +243,13 @@ nav > div > a{
 }
 
 .floating-info-title1{
-color: rgba(255, 255, 255, 1);
-font-size:40px;
-font-weight:900;
-text-shadow:
-        0 0 5px rgba(255,255,255,0.8),
-        0 0 10px rgba(255,255,255,0.6),
-        0 0 20px rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 1);
+    font-size:40px;
+    font-weight:900;
+    text-shadow:
+            0 0 5px rgba(255,255,255,0.8),
+            0 0 10px rgba(255,255,255,0.6),
+            0 0 20px rgba(255,255,255,0.4);
 
 }
 
@@ -287,7 +293,90 @@ text-shadow:
     padding-bottom: 0px;
 }
 
+.table{
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+   
+}
+.table th, .table td {
+  padding: 14px 16px;       
+  text-align: left;    
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2);  
+}
 
+
+/* Adds a vertical divider line to the right of the first column */
+.table th, .table td {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.bmi{
+    display: grid;
+    grid-template-columns: repeat(2, 0.0fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#height{
+    width: 15.69em ;
+    height: 2.67em ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+     padding-top: 13px;
+    padding-bottom: 13px;
+}
+#weight{
+    width: 15.69em ;
+    height: 2.67em ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+     padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+#age{
+    width: 15.69em ;
+    height: 2.67em ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+     padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+#sex{
+    width: 15.69em ;
+    height: 2.67em ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+     padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+#last{
+    width: 15.69em ;
+    height: 2.67em ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    grid-column: span 2;
+    width: 96%;
+    
+}
 
 
 
