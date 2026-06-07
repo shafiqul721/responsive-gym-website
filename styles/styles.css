@@ -72,6 +72,23 @@ nav > div > a{
     
     
 }
+    .team-title{
+        font-size: 48px;
+        font-weight: bolder;
+        /* justify-content: center; */
+        /* justify-items: center; */
+        align-items: center;
+        margin-bottom: 20px;
+        align-items: center;
+
+        text-align: center;
+    }
+    .team-description{
+        text-align: center;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 30px;
+    }
 .team-pic{
     width: 15em;
     height: 13em;
