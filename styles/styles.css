@@ -50,6 +50,87 @@ nav > div > a{
 }
 
 
+
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 860px;
+    height: 504px;
+    border-radius: 20px;
+    
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+     /* filter: brightness(70%); */
+    margin:0px auto;
+
+    position: relative;
+    row-gap: 20px;
+   
+    /* background: rgba(0,0,0,0.25);; */
+    
+    
+}
+.team-pic{
+    width: 15em;
+    height: 13em;
+    border-radius: 20px;
+    /* fill: rgba(0, 0, 0, 0.2); */
+    opacity: 60%;
+   
+}
+
+
+.description-team1{
+    position: absolute;
+    bottom: 270px;
+    left: 25px;
+    font-size: 20px ;
+}
+.description-team2{
+    position: absolute;
+    bottom: 270px;
+    left: 310px;
+    font-size: 20px ;
+}
+
+.description-team3{
+    position: absolute;
+    bottom: 270px;
+    left: 600px;
+    font-size: 20px ;
+}
+.description-team4{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 20px ;
+}
+.description-team5{
+    position: absolute;
+    bottom: 10px;
+    left: 310px;
+    font-size: 20px ;
+}
+.description-team6{
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+    font-size: 20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* shared  */
 
 .inter-regular-font {
@@ -132,7 +213,7 @@ nav > div > a{
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: 220px;  
-    right: 100px;   
+    right: -2px;   
     backdrop-filter: blur(10px);
     line-height: 0.01;
     justify-items: left;
@@ -164,8 +245,8 @@ text-shadow:
     background-color: rgba(48, 48, 48, 0.54);
     padding: 17px 24px;
     position: absolute;
-    right: 470px;
-    top: 505px;
+    right: 400px;
+    top: 405px;
     backdrop-filter: blur(10px); 
     gap: 15px;
     line-height: 1;
@@ -194,6 +275,7 @@ text-shadow:
 .floating-info2-text{
     padding-bottom: 0px;
 }
+
 
 
 /* responsive */
@@ -226,16 +308,12 @@ text-shadow:
 }
 .floating-info2{
     right: 180px;
-    top: 900px;
-    
+    top: 900px;    
     width:170px;
     height: 80px;
     padding-top: 0.01em;
     padding-bottom:12px;
     line-height: 0.9;
-
-    
-
 }
     
 }
