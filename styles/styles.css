@@ -473,8 +473,13 @@ nav > div > a{
  background-color: grey;
     font-size: 20px ;
 }
+.bmi-main-section{
+    flex-direction: column
+}
 
-
+.bmi{
+    margin-left: -29px;
+}
     
 }
 
