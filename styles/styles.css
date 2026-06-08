@@ -69,8 +69,7 @@ nav > div > a{
     .team-title{
         font-size: 48px;
         font-weight: bolder;
-        /* justify-content: center; */
-        /* justify-items: center; */
+       
         align-items: center;
         margin-bottom: 20px;
         align-items: center;
@@ -87,7 +86,6 @@ nav > div > a{
     width: 15em;
     height: 13em;
     border-radius: 20px;
-    /* fill: rgba(0, 0, 0, 0.2); */
     opacity: 60%;
    
 }
