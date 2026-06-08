@@ -213,7 +213,7 @@ nav > div > a{
 .italianno-regular {
   font-family: "Italianno", cursive;
   font-weight: 500;
-  /* font-style: normal; */
+ 
   font-size: 90px;
   
 }
@@ -305,7 +305,7 @@ nav > div > a{
 }
 
 
-/* Adds a vertical divider line to the right of the first column */
+
 .table th, .table td {
   border-right: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -387,9 +387,6 @@ nav > div > a{
 
 
 .team-section{
-    /* align-items: center;
-    align-content: center;
-    justify-content: center; */
     justify-items: center;
 }
 /* responsive */
